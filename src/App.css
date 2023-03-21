@@ -3,11 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+  
 }
+
 
 .App{
   display: flex;
@@ -17,11 +15,21 @@
 }
 
 .card {
+
   padding: 2em;
-  background-color: #565656;
+  background-color: #3c5b3c;
   width: 550px;
   height: auto;
   text-align: left;
+  border-radius: 10px;
+  
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+
 }
 
 

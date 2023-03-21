@@ -30,12 +30,19 @@ function getCatImages() {
 
   return (
     <div className="App">
-      <h1>Random Cat Images and Information</h1>
+      <h1 className='Title'>Random Cat Images and Information</h1> <br></br>
+      <div className='CardContainer'>
       <div className="card">
         <img className="catImage" src={currentImage}></img>
         <p> Type of cat:  {catName}</p>  <p> Origin of cat:   {catOrgin}</p>
         <p> {description}  </p>
         <button onClick={getCatImages}>Click for new image</button>
+      </div>
+      <br></br>
+      <div className="card">
+        <h1>Bans List</h1>
+        <p>Origins or breads that should not appear</p>
+      </div>
       </div>
     </div>
   );
