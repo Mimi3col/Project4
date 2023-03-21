@@ -15,12 +15,12 @@
 }
 
 .card {
-
   padding: 2em;
   background-color: #3c5b3c;
   width: 550px;
   height: auto;
-  text-align: left;
+  max-height: 700px;
+  align-items: center;
   border-radius: 10px;
   
 }
@@ -32,10 +32,10 @@
 
 }
 
-
-p {
+.info {
   font-size: medium;
   font-weight: bold;
+  text-align: left;
 }
 
 
@@ -44,6 +44,8 @@ p {
 }
 
 .catImage {
-  width: 550px;
+  width: auto;
   height: auto;
+  max-width: 550px;
+  max-height: 400px;
 }

@@ -34,8 +34,8 @@ function getCatImages() {
       <div className='CardContainer'>
       <div className="card">
         <img className="catImage" src={currentImage}></img>
-        <p> Type of cat:  {catName}</p>  <p> Origin of cat:   {catOrgin}</p>
-        <p> {description}  </p>
+        <p className='info'> Type of cat:  {catName}</p>  <p className='info'> Origin of cat:   {catOrgin}</p>
+        <p className='info'> {description}  </p>
         <button onClick={getCatImages}>Click for new image</button>
       </div>
       <br></br>
