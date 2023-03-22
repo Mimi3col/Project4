@@ -33,7 +33,7 @@
 }
 
 .info {
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
   text-align: left;
 }
@@ -48,4 +48,8 @@
   height: auto;
   max-width: 550px;
   max-height: 400px;
+}
+
+.clearbans{
+  position:bottom; 
 }
