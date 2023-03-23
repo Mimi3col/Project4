@@ -19,6 +19,7 @@ The following **required** functionality is completed:
 - [x] **At least one image is displayed per API call**
 - [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
 - [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+    - as shone in the gif when an attribute is selected it will no longer appear
 
 The following **optional** features are implemented:
 
@@ -35,7 +36,7 @@ Here's a walkthrough of implemented user stories:
 
 ![My Video Walk Through](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJiMmE1OTY0MzA4MWFhMThiMDU3M2Q2N2I1ODA5M2ZhZjg2Y2I0NCZjdD1n/N0RYMESzXfMqROPmj5/giphy.gif)
 
-
+![Second Video Walkthrough](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODE1NjQ0Yjg2ZGY2ODhhYzQwMjM0ZDQxMDE2NmM0NWQ5YzY1MzE5YSZjdD1n/STrI4d7gXpXPzXGFMH/giphy.gif)
 
 
 ## Notes
